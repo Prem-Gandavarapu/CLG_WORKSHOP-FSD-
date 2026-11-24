@@ -1,0 +1,78 @@
+
+# =========================
+# PYTHON
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# =========================
+# ENVIRONMENT & SECRETS
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# API keys and credentials
+secrets.json
+credentials.json
+
+# =========================
+# IDE & EDITORS
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# MACOS
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# =========================
+# LOGS & TEMPORARY FILES
+# =========================
+
+*.log
+*.tmp
+*.swp
+*.bak
+
+# =========================
+# TESTING & COVERAGE
+# =========================
+
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# =========================
+# JUPYTER
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# DATABASE FILES
+# =========================
+
+*.db
+*.sqlite3
